@@ -89,14 +89,14 @@ Project focuses on the Canadian housing market and looking at past trends. The m
 	    - % difference in office prices vs time
 	    - % difference in number of house construction completions vs time
 	    - % difference in consumer index vs time
-	- filter for date level
+	- filter for controlling range of dates
 
 - Plot consumer_index together with housing_price_index and fit the regression line between them. Can we predict consumer_index from the housing_price_index? (D9)
     - 1 scatter plot (S9)
     	- HPI vs CPI
     	- linear regression line with 95% confidence interval bands
 
-- Try to find an interesting pattern, trend, outlier, etc. from the data used in the above questions. (D10) HINT : Double check all units in the table before any comparison.
+- Try to find an interesting pattern, trend, outlier, etc. from the data used in the above questions. HINT : Double check all units in the table before any comparison. (D10)
 	- investigate housing prices rates for the most expensive cities after 2015
 	- 1 bar graph (S10.1)
 		- average home price for each region
@@ -106,8 +106,10 @@ Project focuses on the Canadian housing market and looking at past trends. The m
 		- % change in average home price for each region
 		- filtered by date (each graph is a change in the monthly average)
 		- colour graded based on price criteria from graph on sheet S10.1
+	- animated bar graphs that changes based on time
 	- 5 area charts (S10.3)
 		- % change in average home price for each region vs time
+		- filter for controlling range of dates
 
 ## Challenges
 - Challenge of dealing with a JSON file:
@@ -131,9 +133,9 @@ Project focuses on the Canadian housing market and looking at past trends. The m
 	- After attempting to remedy the broken associations, started a new Tableau file altogether as the software was not willing to co-operate
 
 ## Future Goals
-- Expand on data sets that were provided. For instance, the weekly earnings did not cover earnings statistics before 2001, even though Statistics Canada has this information available for use.
-- Use data sets that were outside the scope of this project. Some additional data sets that may be relevant in understanding housing price trends would be population growth rates, immigration/emigration rates, employment/unemployment rates and crime statistics.
-- Focus specifically on a few cities (such at Toronto and Vancouver) as these are some of the largest metropolitan areas in the country.
+- Expand on data sets that were provided. For instance, the weekly earnings did not cover earnings statistics before 2001, even though Statistics Canada has this information available for use
+- Use data sets that were outside the scope of this project. Some additional data sets that may be relevant in understanding housing price trends would be population growth rates, immigration/emigration rates, employment/unemployment rates and crime statistics
+- Focus specifically on a few cities (such at Toronto and Vancouver) as these are some of the largest metropolitan areas in the country
 - Build predictive models based on additional and expanded datasets
 
 ## References
