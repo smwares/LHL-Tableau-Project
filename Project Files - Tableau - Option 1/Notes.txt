@@ -1,0 +1,66 @@
+Show the trend of house prices across Canada in the last 40 years (table housing_price_index).
+    - 2 line graphs on one sheet:
+        - housing price index vs time
+        - % difference in index value vs time
+    - filter for date level
+    - colored to show above and below 0%
+
+Compare the trend after 2005 with actual benchmark prices in table real_estate_prices to see if there are any differences.
+    - 2 line graphs on one sheet:
+        - housing price index vs time
+        - real estate benchhmark prices vs time
+    - 2 line graphs on one sheet:
+        - % difference in housing price index vs time
+        - % difference in real estate benchhmark prices vs time
+        - filter for date level
+        - colored to show above and below 0%
+
+Compare this trend with the trend of office prices. Which one is getting more expensive, faster?
+    - 1 multi-line graph on one sheet:
+        - housing and office price index vs time
+    - 2 line graphs on one sheet:
+        - % difference in housing price index vs time
+        - % difference in office price index vs time
+        - filter for date level
+        - colored to show above and below 0%
+
+Create a heatmap of Canada with current house prices for each available district.
+    - One heat map with circles of varying sizes and colours
+    - One packed bubble chart showing top 5 most expensive locations
+    - One packed bubble chart showing top 5 least expensive locations
+    - Filtered to show 2020 average
+
+Are the price differences between different districts increasing?
+    - One line graph showing standard deviation
+
+Compare the trend of house prices with earnings. *In case you want to plot monthly salary, be aware that the earnings value is per week.
+    - 1 multi-line graph on one sheet:
+        - house prices and earnings vs time
+    - 2 line graphs on one sheet:
+        - % difference in house prices vs time
+        - % difference in weekly earnings vs time
+        - filter for date level
+        - colored to show above and below 0%
+
+Did people spend more of their earnings in 2014 than they did in 2001?
+    - One bar graph with 2001 and 2014 labeled
+
+There were several economic crises in the world in the last 40 years, including these four: Black Monday (1987), Recession (early 1990s), dot com bubble (2000 - 2002), Financial crisis (2007 - 2009). Show the effect of these crises on:
+    Earnings
+    House prices
+    Office prices
+    House constructions
+    Consumer index
+    - 5 line graphs on one sheet:
+        - Weekly earnings vs time
+        - House prices vs time
+        - Office prices vs time
+        - Number of house constructions vs time
+        - Consumer index vs time
+
+Plot consumer_index together with housing_price_index and fit the regression line between them. Can we predict consumer_index from the housing_price_index?
+    - Scatter plot with HPI and CPI and a regression line
+
+Try to find an interesting pattern, trend, outlier, etc. from the data used in the above questions.
+    HINT : Double check all units in the table before any comparison.
+- Investigate housing prices rates after 2016 (other city rates may have gone up much higher due to tax policies in Vancouver)
